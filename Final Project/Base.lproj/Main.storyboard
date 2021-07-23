@@ -74,17 +74,6 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5n-rU-JoX">
-                                <rect key="frame" x="126" y="736" width="162" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <state key="normal" title="Timer">
-                                    <color key="titleColor" red="0.54728186130000001" green="0.69670015569999999" blue="0.74902945759999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <segue destination="EZt-p0-EGL" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="42F-W2-Nss"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Phone Break" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UcP-IY-LgL">
                                 <rect key="frame" x="68" y="61" width="279" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -94,6 +83,17 @@
                                 <color key="highlightedColor" red="0.8481275439" green="0.92458623650000005" blue="0.96079117059999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <size key="shadowOffset" width="4" height="-4"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5n-rU-JoX">
+                                <rect key="frame" x="124" y="704" width="167" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="Timer">
+                                    <color key="titleColor" red="0.54728186130000001" green="0.69670015569999999" blue="0.74902945759999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="EZt-p0-EGL" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="42F-W2-Nss"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.9882352941176471" green="0.97254901960784312" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2049,7 +2049,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="WaX-gZ-bX0"/>
+        <segue reference="0fK-KT-mQd"/>
         <segue reference="GiV-HT-Kn9"/>
     </inferredMetricsTieBreakers>
     <resources>
